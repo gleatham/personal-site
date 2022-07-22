@@ -1,0 +1,16 @@
+Palette 1
+#979797 - Grey
+#3DA6A0 - Teal
+#DBA73E - Orange
+#D95757 - Red
+
+Microsoft
+
+Redhat
+218, 47, 32 - Red
+217, 217, 217 - White
+0, 0, 0 - Black
+    -Highlights
+        243, 171, 79 - Orange
+        53, 107, 193 - Blue
+
