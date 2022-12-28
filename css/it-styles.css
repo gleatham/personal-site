@@ -11,3 +11,28 @@ body {
     color: #A9C52F;
 }
 */
+
+.resume {
+    display: flex;
+    flex: 1;
+}
+
+.skills {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.list-left {
+    justify-content: left;
+}
+
+.work-hisory-entry {
+    flex: 1;
+}
+
+.work-history-list {
+    border: none;
+    height: auto;
+    list-style: none;
+}
