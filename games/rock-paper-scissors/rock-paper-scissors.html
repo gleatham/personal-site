@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock-Paper-Scissors</title>
+    <link href="rock-paper-scissors.css" rel="stylesheet">
+
+</head>
+<body>
+<main>
+    <h1>Rock, Paper, Scissors</h1>
+
+    <p>
+        This is a simple implementation of Rock, Paper, Scissors that I built to practice
+        using buttons and event listeners.
+    </p>
+
+    <div class="selection-buttons">
+        <div class="butts">
+            <button data-rock class="button-rock">Rock</button>
+        </div>
+        <div class="butts">
+            <button data-paper class="button-paper">Paper</button>
+        </div>
+        <div class="butts">
+                <button data-scissors class="button-scissors">Scissors</button>
+        </div>
+    </div>
+    <div class="selection-images">
+        <img id="player" src="images/light_gray__73702.jpg" alt="Error Loading" height="500px" width="500px">
+        <img id="computer" src="images/light_gray__73702.jpg" alt="Error Loading" height="500px" width="500px">
+    </div>
+
+    <div class="result">
+        <p id="result"></p>
+    </div>
+
+    <div id="score">
+        <p id="player-score">Player: 0</p>
+        <p id="computer-score">Computer: 0</p>
+    </div>
+</main>
+<script src="rock-paper-scissors.js" defer></script>
+</body>
+</html>

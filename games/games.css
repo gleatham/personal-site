@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: AppleGothic, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: dimgrey;
+}
+
+.alt-a:link, .alt-a:visited, .alt-a:hover, .alt-a:active {
+    color: white;
+    text-decoration: none;
+}
