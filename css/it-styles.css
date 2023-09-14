@@ -11,6 +11,9 @@ body {
     color: #A9C52F;
 }
 */
+nav.sub-heading.flex-container {
+    border: 2px solid #20C20E;
+}
 
 .resume {
     display: flex;

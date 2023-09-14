@@ -33,7 +33,15 @@ div.sub-heading {
     border: 2px solid black;
 }
 
-.sub-heading h3,
+nav.sub-heading.flex-container {
+    border: 2px solid #2D4263;
+}
+
+nav.sub-heading.flex-container a {
+
+}
+
+.sub-heading a,
 .social-footer ul li{
     display: inline-block;
     list-style: none;
